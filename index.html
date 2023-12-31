@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto color genaret</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 0;
+        
+        }
+        .contianer{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+   
+        }
+
+        .colorDis{
+            font-size: 80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 600;
+            margin-bottom: 80px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        #colorGen{
+            padding: 50px 100px ;
+            background: green;
+            border: none;
+            border-radius: 30px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contianer">
+         <div class="mainColor">
+            <div id="colorDis" class="colorDis">#ffffff</div>
+            <button onclick="randomColor()" id="colorGen">genaret</button>
+         </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
